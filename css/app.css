@@ -12,12 +12,13 @@ html {
 }
 
 body {
-  font-family: "Josefin Sans", sans-serif !important;
+  font-family: "Lora", sans-serif !important;
   padding: 0 !important;
 }
 
 .font-esthetic {
-  font-family: Sacramento, cursive !important;
+  font-family: "Dancing Script", cursive !important;
+  font-weight: 400 !important;
 }
 
 .font-arabic {
