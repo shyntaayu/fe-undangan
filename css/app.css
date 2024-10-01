@@ -40,6 +40,10 @@ body {
   width: 100%;
 }
 
+.img-crop > .img-me {
+  transform: translate(0px, -50px);
+}
+
 .btn-music {
   position: fixed;
   bottom: 9vh !important;
