@@ -30,7 +30,8 @@ body {
   height: 14rem;
   position: relative;
   overflow: hidden;
-  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 
 .img-crop > img {
