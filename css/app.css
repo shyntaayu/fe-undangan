@@ -45,6 +45,10 @@ body {
   transform: translate(0px, -50px);
 }
 
+.img-crop > .img-me-2 {
+  transform: translate(0px, -72px);
+}
+
 .btn-music {
   position: fixed;
   bottom: 9vh !important;
