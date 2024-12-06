@@ -26,3 +26,15 @@ document.addEventListener("visibilitychange", () => {
     }
   }
 });
+
+document.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+  alert("©2024 shyntaayu. All Right Reserved");
+});
+
+document.addEventListener("keydown", function (e) {
+  if (e.ctrlKey && e.shiftKey && e.key === "I") {
+    e.preventDefault();
+    alert("©2024 shyntaayu. All Right Reserved");
+  }
+});
