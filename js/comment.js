@@ -264,7 +264,10 @@ export const comment = (() => {
 
     await request(
       HTTP_GET,
-      `/api/comment?per=${pagination.getPer()}&next=${pagination.getNext()}`
+      `/api/comment?per=${pagination.getPer()}&next=${pagination.getNext()}`,
+      {
+        mode: "no-cors",
+      }
     )
       .token(session.get("token"))
       .then((res) => {
